@@ -1,5 +1,5 @@
 <?php
-//get the db connection file
+
 require_once 'dbconf.php';
 
 function PrintTable(tableName,$connect)
@@ -8,7 +8,7 @@ function PrintTable(tableName,$connect)
 try {
 
 	//Query
-	$sql = "SELECT * FROM tableName";
+	$sql = "SELECT * FROM $tableName";
 
 	//excute the quey
 	$result = mysqli_query($connect,$sql);
