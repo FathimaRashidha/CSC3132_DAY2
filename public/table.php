@@ -1,5 +1,5 @@
 <?php
-//get the db connection file
+
 require_once 'dbconf.php';
 
 
