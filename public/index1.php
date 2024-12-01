@@ -141,4 +141,4 @@ try {
 }
 
 
-PrintTable("books",$connect);
+PrintTable("student",$connect);
